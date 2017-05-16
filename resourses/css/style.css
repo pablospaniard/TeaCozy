@@ -1,0 +1,151 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: auto;
+}
+
+logo img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+    text-decoration: underline;
+}
+
+a {
+    color: seashell;
+}
+
+h2 {
+    margin: auto;
+    padding: 10px;
+}
+
+h4 {
+    margin: auto;
+    padding: 10px;
+}
+
+div .item {
+    padding: 5px;
+}
+
+
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    z-index: 1;
+    background-color: black;
+}
+
+.mission {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    height: 700px;
+    margin: auto;
+    padding-top: 70px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: black;
+    width: 100%;
+
+}
+
+.tea-month {
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    padding-top: 70px;
+}
+.season-food {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.season-food span {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.item img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    display: block;    
+}
+
+.item span {
+    padding: 10px;
+}
+
+.location {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.location h2 {
+    padding-top: 70px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.location .item {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.adress-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 1;
+}
+
+.contacts {
+    height: 200px;
+}
+
+.footer {
+    padding-left: 20px;
+    text-align: left;
+    margin: auto;
+}
